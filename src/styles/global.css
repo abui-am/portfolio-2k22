@@ -2,8 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	body {
-	  font-family: Noto Sans;
-	}
+@layer components {
+  body {
+    font-family: Noto Sans;
+    color: #000000e5;
   }
+
+  .text-gradient {
+    background: linear-gradient(255.54deg, #4537eb 16.47%, #c43bda 76.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .ava-bg {
+    background: linear-gradient(
+      255.54deg,
+      rgba(69, 55, 235, 0.3) 16.47%,
+      rgba(196, 59, 218, 0.3) 76.71%
+    );
+    filter: blur(25px);
+  }
+  .border-gradient {
+    border-image-source: linear-gradient(
+      255.54deg,
+      #4537eb 16.47%,
+      #c43bda 76.71%
+    );
+
+    border-image-slice: 1;
+  }
+  .gradient {
+    background: linear-gradient(255.54deg, #4537eb 16.47%, #c43bda 76.71%);
+  }
+
+  .spin-gradient {
+    position: relative;
+  }
+  .spin-gradient div {
+    z-index: 2;
+  }
+
+  .spin-gradient:after {
+    position: absolute;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation-timing-function: linear;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-size: cover;
+    background: linear-gradient(255.54deg, #4537eb 16.47%, #c43bda 76.71%);
+    content: ' ';
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

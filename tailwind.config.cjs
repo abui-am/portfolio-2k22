@@ -1,11 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
-  content: ['./src/**/*.{html,js,astro}'],
+  content: [
+    './src/components/**/*.{html,js,astro}',
+    './src/pages/**/*.{html,js,astro}',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light-gray': '#F8F8F8',
+        primary: '#3F3BF3',
+        'primary-black': '#000000E5',
+      },
+    },
   },
   plugins: [],
 };

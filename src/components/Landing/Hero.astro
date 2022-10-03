@@ -1,0 +1,46 @@
+---
+import Container from '../Container/Container.astro';
+---
+
+<Container>
+  <section class='flex justify-between mb-[100px]' id='hero'>
+    <div class='mt-[130px] max-w-[424px] w-full'>
+      <span class='text-primary mb-2 block'> Documentation Of Myself</span>
+      <h1 class='text-5xl text-gradient mb-4 font-extrabold block'>
+        Abuidillah Adjie Muliadi
+      </h1>
+      <p class='text-primary-black block mb-4'>
+        A passionate developer, who love to code and sometime design, and
+        sometime drink coffee.
+      </p>
+
+      <div class='flex space-x-4'>
+        <button
+          class='spin-gradient p-[1px] rounded-full flex justify-center items-center'
+        >
+          <div class='bg-white p-2 rounded-full animate-none'>
+            <img alt='github' src='/i-github.svg' class='w-6 h-6' />
+          </div>
+        </button>
+
+        <button
+          class='spin-gradient p-[1px] rounded-full flex justify-center items-center'
+        >
+          <div class='bg-white p-2 rounded-full animate-none'>
+            <img alt='linkedin' src='/i-linkedin.svg' class='w-6 h-6' />
+          </div>
+        </button>
+      </div>
+    </div>
+    <div class='relative'>
+      <img
+        src='/avatar.png'
+        class='absolute z-10 top-[22px] left-[22px]'
+        alt='avatar'
+        width={364}
+        height={364}
+      />
+      <div class='ava-bg w-[408px] h-[408px] rounded-full'></div>
+    </div>
+  </section>
+</Container>
