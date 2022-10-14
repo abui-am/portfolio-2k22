@@ -13,6 +13,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    position: relative;
+  }
+
+  .text-gradient.underline::before {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    border-radius: 2px;
+    background: linear-gradient(255.54deg, #4537eb 16.47%, #c43bda 76.71%);
   }
 
   .ava-bg {

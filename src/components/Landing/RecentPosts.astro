@@ -1,0 +1,32 @@
+---
+import ArticleCard from '../Card/ArticleCard.astro';
+import Container from '../Container/Container.astro';
+---
+
+<Container additionalClass='mt-16'>
+  <div class='mb-10 block'>
+    <h1 class='text-4xl text-gradient font-extrabold inline'>Recent Posts</h1>
+  </div>
+
+  <div class='grid grid-cols-12 gap-4'>
+    <div class='col-span-6'>
+      <ArticleCard />
+    </div>
+    <div class='col-span-6'>
+      <ArticleCard />
+    </div>
+    <div class='col-span-4'>
+      <ArticleCard noImage />
+    </div>
+
+    <div class='col-span-4'>
+      <ArticleCard noImage />
+    </div>
+    <div class='col-span-4'>
+      <ArticleCard noImage />
+    </div>
+  </div>
+  <div class='flex justify-end my-4'>
+    <a class='text-gradient font-bold underline'>Read more</a>
+  </div>
+</Container>

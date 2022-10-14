@@ -13,3 +13,5 @@ export const get = async (): Promise<{
     site: import.meta.env?.SITE,
     title: SITE_TITLE,
   });
+
+

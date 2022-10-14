@@ -2,6 +2,8 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header/Header.astro';
 import Hero from '../components/Landing/Hero.astro';
+import RecentPosts from '../components/Landing/RecentPosts.astro';
+import SkillsAndStack from '../components/Landing/SkillsAndStack.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 ---
 
@@ -16,6 +18,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
         <Header />
         <Hero />
       </div>
+      <RecentPosts />
+      <SkillsAndStack />
     </main>
   </body>
 </html>

@@ -1,0 +1,38 @@
+---
+export type Props = {
+  noImage?: boolean;
+};
+
+const { noImage } = Astro.props;
+---
+
+<div class:list={['gradient p-[1px] rounded-lg', { 'h-[350px]': !noImage }]}>
+  <div class='relative overflow-hidden'>
+    {
+      !noImage && (
+        <img
+          class:list={['w-full rounded-lg', { 'h-[348px]': !noImage }]}
+          src='https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?w=1380&t=st=1665244775~exp=1665245375~hmac=d11700584670d21d82caa557333cdbcd54db325845149bd206f69f0a5364f0de'
+        />
+      )
+    }
+
+    <div
+      class:list={[
+        { 'bottom-0 left-0 right-0 absolute': !noImage },
+        { 'rounded-t-lg': noImage },
+        'bg-white rounded-b-lg p-6',
+      ]}
+    >
+      <h2 class='text-xl font-bold mb-2'>How to React : Into the hooks!</h2>
+      <p class='text-gray-800 mb-4'>
+        React is sure hard, but we will make into the void.
+      </p>
+
+      <div class='flex justify-between'>
+        <a class='text-gradient font-bold underline'>Read more</a>
+        <span class='text-gray-600 font-bold'>3 min read</span>
+      </div>
+    </div>
+  </div>
+</div>
