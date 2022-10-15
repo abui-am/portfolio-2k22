@@ -40,6 +40,8 @@ const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 <link rel='preconnect' href='https://fonts.googleapis.com' />
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
 <link
+  onload='this.onload=null;this.rel="stylesheet"'
   href='https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&display=swap'
-  rel='stylesheet'
+  as='style'
+  rel='preload'
 />
