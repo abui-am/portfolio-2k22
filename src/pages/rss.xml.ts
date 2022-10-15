@@ -6,12 +6,10 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../config';
 export const get = async (): Promise<{
   body: string;
 }> =>
-  await rss({
+  rss({
     description: SITE_DESCRIPTION,
     items: import.meta.glob('./blog/**/*.{md,mdx}'),
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     site: import.meta.env?.SITE,
     title: SITE_TITLE,
   });
-
-

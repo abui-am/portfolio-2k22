@@ -3,7 +3,7 @@ layout: '../../layouts/BlogPost.astro'
 title: '!important CSS. The bad, The Ugly, and The Alternative, and When Does It Might Be Usefull'
 description: "It's Friday, 1 hour before a long weekend and your CSS is not working as it is supposed to be.
 You are running out of time and you are tempted to just add `!important` and call it a day."
-publishDate: '16 Jul 2022'
+pubDate: '16 Jul 2022'
 heroImage:
   src: '/blogs/istockphoto-1071204136-612x612.jpg'
   alt: 'Cat'
