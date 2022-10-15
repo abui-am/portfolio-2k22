@@ -4,7 +4,7 @@ import projects from '../../json/projects.json';
 import ProjectCard from '../Card/ProjectCard.astro';
 ---
 
-<Container additionalClass='mt-16'>
+<Container id='projects' additionalClass='mt-16'>
   <article class='mb-10 block'>
     <div class='mb-10 block'>
       <h1 class='text-4xl text-gradient font-extrabold inline'>
@@ -14,11 +14,13 @@ import ProjectCard from '../Card/ProjectCard.astro';
     <div class='grid grid-cols-2 gap-4'>
       {
         projects.map((project) => (
-          <ProjectCard
-            imageUrl={project.imageUrl}
-            description={project.desc}
-            title={project.title}
-          />
+          <div class='col-span-2 sm:col-span-1'>
+            <ProjectCard
+              imageUrl={project.imageUrl}
+              description={project.desc}
+              title={project.title}
+            />
+          </div>
         ))
       }
     </div>

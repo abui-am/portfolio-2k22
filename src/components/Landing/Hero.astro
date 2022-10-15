@@ -2,9 +2,14 @@
 import Container from '../Container/Container.astro';
 ---
 
-<Container>
-  <section class='flex justify-between mb-[100px]' id='hero'>
-    <div class='mt-[130px] max-w-[424px] w-full'>
+<Container id='hero'>
+  <section
+    class='flex justify-between mb-[100px] flex-col-reverse sm:flex-row'
+    id='hero'
+  >
+    <div
+      class='mt-11 max-w-[424px] w-full text-center sm:text-left sm:mt-[130px]'
+    >
       <span class='text-primary mb-2 block'> Documentation Of Myself</span>
       <h1 class='text-5xl text-gradient mb-4 font-extrabold block'>
         Abuidillah Adjie Muliadi
@@ -14,33 +19,34 @@ import Container from '../Container/Container.astro';
         sometime drink coffee.
       </p>
 
-      <div class='flex space-x-4'>
-        <button
+      <div class='flex space-x-4 justify-center sm:justify-start'>
+        <a
+          href='https://github.com/abui-am'
           class='spin-gradient p-[1px] rounded-full flex justify-center items-center'
         >
           <div class='bg-white p-2 rounded-full animate-none'>
             <img alt='github' src='/i-github.svg' class='w-6 h-6' />
           </div>
-        </button>
+        </a>
 
-        <button
+        <a
+          href='https://www.linkedin.com/feed/'
           class='spin-gradient p-[1px] rounded-full flex justify-center items-center'
         >
           <div class='bg-white p-2 rounded-full animate-none'>
             <img alt='linkedin' src='/i-linkedin.svg' class='w-6 h-6' />
           </div>
-        </button>
+        </a>
       </div>
     </div>
-    <div class='relative'>
+    <div class='relative flex justify-center'>
       <img
         src='/avatar.png'
-        class='absolute z-10 top-[22px] left-[22px]'
+        class='absolute z-10 top-4 sm:top-[22px] w-72 h-72 sm:w-[364px] sm:h-[364px] rounded-full'
         alt='avatar'
-        width={364}
-        height={364}
       />
-      <div class='ava-bg w-[408px] h-[408px] rounded-full'></div>
+      <div class='ava-bg w-80 h-80 sm:w-[408px] sm:h-[408px] rounded-full'>
+      </div>
     </div>
   </section>
 </Container>

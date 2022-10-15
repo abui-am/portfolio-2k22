@@ -1,30 +1,47 @@
 ---
 import ArticleCard from '../Card/ArticleCard.astro';
 import Container from '../Container/Container.astro';
+import posts from '../../json/posts.json';
 ---
 
-<Container additionalClass='mt-16'>
+<Container id='posts' additionalClass='mt-16'>
   <div class='mb-10 block'>
     <h1 class='text-4xl text-gradient font-extrabold inline'>Recent Posts</h1>
   </div>
 
   <div class='grid grid-cols-12 gap-4'>
-    <div class='col-span-6'>
-      <ArticleCard />
-    </div>
-    <div class='col-span-6'>
-      <ArticleCard />
-    </div>
-    <div class='col-span-4'>
-      <ArticleCard noImage />
-    </div>
-
-    <div class='col-span-4'>
-      <ArticleCard noImage />
-    </div>
-    <div class='col-span-4'>
-      <ArticleCard noImage />
-    </div>
+    {
+      posts.map((post, i) => {
+        return (
+          <div
+            class:list={[
+              { 'sm:col-span-6': i < 2, 'sm:col-span-4': i >= 2 },
+              'col-span-12',
+            ]}
+          >
+            <div class='hidden sm:block h-full'>
+              <ArticleCard
+                url={post.url}
+                title={post.title}
+                description={post.desc}
+                imageUrl={post.imageUrl}
+                noImage={i >= 2}
+                minRead={'' + post.minRead}
+              />
+            </div>
+            <div class='sm:hidden h-full'>
+              <ArticleCard
+                url={post.url}
+                title={post.title}
+                description={post.desc}
+                imageUrl={post.imageUrl}
+                minRead={'' + post.minRead}
+              />
+            </div>
+          </div>
+        );
+      })
+    }
   </div>
   <div class='flex justify-end my-4'>
     <a class='text-gradient font-bold underline'>Read more</a>

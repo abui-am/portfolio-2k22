@@ -1,11 +1,15 @@
 ---
 export interface Props {
   additionalClass?: astroHTML.JSX.BaseHTMLAttributes['class'];
+  id: string;
 }
 
-const { additionalClass } = Astro.props;
+const { additionalClass, id } = Astro.props;
 ---
 
-<div class:list={['max-w-5xl w-screen ml-auto mr-auto p-6', additionalClass]}>
+<div
+  id={id}
+  class:list={['max-w-5xl w-screen ml-auto mr-auto p-6', additionalClass]}
+>
   <slot />
 </div>

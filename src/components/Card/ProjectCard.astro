@@ -9,7 +9,11 @@ const { title, description, imageUrl } = Astro.props;
 
 <div class='gradient p-[1px] rounded-lg h-[350px]'>
   <div class='relative overflow-hidden'>
-    <img class='w-full rounded-lg h-[348px]' src={imageUrl} />
+    <img
+      class='w-full rounded-lg h-[348px] object-cover'
+      src={imageUrl}
+      loading='lazy'
+    />
     <div class='bottom-0 left-0 right-0 absolute bg-white rounded-b-lg p-6'>
       <h2 class='text-xl font-bold mb-2'>{title}</h2>
       <p class='text-gray-800 mb-4'>

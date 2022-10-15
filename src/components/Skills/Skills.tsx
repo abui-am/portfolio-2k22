@@ -11,7 +11,7 @@ function SkillsAndStack(): JSX.Element {
     clsx(
       'py-3 px-4 text-center font-bold',
       $stackActive === type && 'gradient text-white',
-      $stackActive !== type && 'text-primary bg-slate-200',
+      $stackActive !== type && 'text-primary bg-slate-100',
       type === 'du' && 'rounded-r',
       type === 'fe' && 'rounded-l'
     );
@@ -53,7 +53,9 @@ function SkillsAndStack(): JSX.Element {
         {skills
           ?.filter((skill) => skill.specialization.includes($stackActive))
           .map((skill) => (
-            <SkillCard key={skill.id} {...skill} />
+            <div className='col-span-2 sm:col-span-1' key={skill.id}>
+              <SkillCard key={skill.id} {...skill} />
+            </div>
           ))}
       </div>
     </div>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "7 Kesalahan Terbesar Saya di Tahun Pertama Berada di Industri",
+    "imageUrl": "https://miro.medium.com/max/1400/0*S7wDC-KvJFoAEUmi",
+    "desc": "Tak terasa 2020 akan berakhir, tak terasa sudah saya berada di industri teknologi ini selama 1 tahun.",
+    "url": "https://abuiam.medium.com/7-kesalahan-terbesar-saya-di-tahun-pertama-berada-di-industri-as-reactjs-web-developer-3ae8946227bf",
+    "minRead": 5
+  },
+  {
+    "id": "2",
+    "title": "Apakah Software Developer / Engineer benar benar masuk \"High Demand\"",
+    "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--Pe9mG4hi--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/56dse8lcwa7wp8w3aqa4.jpg",
+    "desc": "Susah dapet kerja? benarkah??",
+    "url": "https://dev.to/abuiam/apakah-software-developer-engineer-benar-benar-masuk-high-demand-2bj5",
+    "minRead": 5
+  },
+  {
+    "id": "3",
+    "title": "Logical Operator pada JavaScript",
+    "imageUrl": "https://kodinger-cdn.sgp1.digitaloceanspaces.com/posts/789bkGdLAF4XZ/frame-1-5fd8b661dc4f8.png",
+    "desc": "JavaScript itu aneh? Yap..",
+    "url": "https://kodinger.com/abui-am/logical-operator-pada-javascript",
+    "minRead": 6
+  },
+  {
+    "id": "4",
+    "title": "Spesialis atau Generalis, atau... Generalized Spesialis (?)",
+    "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--IM_cb98X--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.imgur.com/ZYIxYu3.jpg",
+    "desc": "Lebih mending Spesialis / Generalis?",
+    "url": "https://dev.to/abuiam/spesialis-atau-generalis-atau-generalized-spesialis-hd9",
+    "minRead": 3
+  },
+  {
+    "id": "5",
+    "title": "Memoization, rawan bug?",
+    "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--9t7v4Vpy--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e14t5imgq8q5nmbqxaus.jpg",
+    "desc": "Memoization? Apaan tuh? makanan kah?",
+    "url": "https://dev.to/abuiam/memoization-rawan-bug-34gf",
+    "minRead": 8
+  }
+]
