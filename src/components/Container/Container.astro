@@ -6,6 +6,6 @@ export interface Props {
 const { additionalClass } = Astro.props;
 ---
 
-<div class={'max-w-5xl w-screen ml-auto mr-auto p-6 ' + additionalClass}>
+<div class:list={['max-w-5xl w-screen ml-auto mr-auto p-6', additionalClass]}>
   <slot />
 </div>
