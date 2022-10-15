@@ -1,7 +1,8 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
+import Header from '../components/Header/Header.astro';
 import Footer from '../components/Footer.astro';
+import Container from '../components/Container/Container.astro';
 
 export interface Props {
   content: {
@@ -34,21 +35,24 @@ const {
   </head>
 
   <body>
-    <Header />
     <main>
       <article>
-        {heroImage && <img width={720} height={360} src={heroImage} alt='' />}
-        <h1 class='title'>{title}</h1>
-        {pubDate && <time>{pubDate}</time>}
-        {
-          updatedDate && (
-            <div>
-              Last updated on <time>{updatedDate}</time>
-            </div>
-          )
-        }
-        <hr />
-        <slot />
+        <Header />
+        <Container additionalClass='prose prose-xl'>
+          {heroImage && <img width={720} height={360} src={heroImage} alt='' />}
+          <h1 class='title'>{title}</h1>
+          {pubDate && <time>{pubDate}</time>}
+          {
+            updatedDate && (
+              <div>
+                Last updated on <time>{updatedDate}</time>
+              </div>
+            )
+          }
+          <hr />
+
+          <slot />
+        </Container>
       </article>
     </main>
     <Footer />
