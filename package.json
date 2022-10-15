@@ -12,13 +12,22 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^0.11.3",
+    "@astrojs/react": "^1.2.0",
     "@astrojs/rss": "^1.0.2",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.0.2",
+    "@nanostores/react": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.7",
     "astro": "^1.4.2",
+    "clsx": "^1.2.1",
+    "nanostores": "^0.7.0",
+    "next-mdx-remote": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
+    "@types/react": "^18.0.21",
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "eslint": "^8.24.0",
     "eslint-config-airbnb": "19.0.4",

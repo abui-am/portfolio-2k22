@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/components/**/*.{html,js,astro}',
-    './src/pages/**/*.{html,js,astro}',
+    './src/components/**/*.{html,js,ts,tsx,astro}',
+    './src/pages/**/*.{html,js,ts,tsx,astro}',
+    './src/layouts/**/*.{html,js,ts,tsx,astro}',
   ],
+  plugins: [require('@tailwindcss/typography')],
   theme: {
     extend: {
       colors: {
@@ -13,5 +15,4 @@ module.exports = {
       },
     },
   },
-  plugins: [],
 };

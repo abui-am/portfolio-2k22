@@ -1,26 +1,13 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "es6": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "airbnb-typescript",
-    "standard-with-typescript",
-    "prettier",
-    "plugin:sort/recommended",
-    "plugin:astro/recommended"
-  ],
-
-  "plugins": [
-    "@typescript-eslint",
-    "react",
-    "sort",
-    "sort-keys-fix",
-    "sort-class-members",
-    "simple-import-sort"
-  ],
+  "parserOptions": {
+    "allowImportExportEverywhere": true,
+    "sourceType": "module"
+  },
   "rules": {
     "sort-keys-fix/sort-keys-fix": "warn",
     "sort-class-members/sort-class-members": [
@@ -43,6 +30,8 @@
     {
       // Define the configuration for `.astro` file.
       "files": ["*.astro"],
+
+      "extends": ["plugin:astro/recommended"],
       // Allows Astro components to be parsed.
       "parser": "astro-eslint-parser",
       // Parse the script in `.astro` as TypeScript by adding the following configuration.
@@ -57,17 +46,31 @@
       }
     },
     {
+      "plugins": [
+        "react",
+        "sort",
+        "sort-keys-fix",
+        "sort-class-members",
+        "simple-import-sort"
+      ],
       "files": ["*.ts", "*.tsx"], // Your TypeScript files extension
 
       // As mentioned in the comments, you should extend TypeScript plugins here,
       // instead of extending them outside the `overrides`.
       // If you don't want to extend any rules, you don't need an `extends` attribute.
       "extends": [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+        "plugin:react/recommended",
+        "airbnb",
+        "airbnb-typescript",
+        "prettier",
+        "plugin:sort/recommended"
       ],
       "parserOptions": {
         "project": ["./tsconfig.json"] // Specify it only for TypeScript files
+      },
+      "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-props-no-spreading": "off"
       }
     }
   ]
