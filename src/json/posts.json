@@ -17,10 +17,10 @@
   },
   {
     "id": "3",
-    "title": "Logical Operator pada JavaScript",
-    "imageUrl": "https://kodinger-cdn.sgp1.digitaloceanspaces.com/posts/789bkGdLAF4XZ/frame-1-5fd8b661dc4f8.png",
-    "desc": "JavaScript itu aneh? Yap..",
-    "url": "https://kodinger.com/abui-am/logical-operator-pada-javascript",
+    "title": "!important CSS. The bad, The Ugly, and The Alternative, and When Does It Might Be Usefull",
+    "imageUrl": "/blogs/istockphoto-1071204136-612x612.jpg",
+    "desc": "Most experts consider the use of the !important declaration (or !important tag) as an anti-pattern...",
+    "url": "/blog/important-css",
     "minRead": 6
   },
   {

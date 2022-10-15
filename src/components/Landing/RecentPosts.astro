@@ -15,7 +15,7 @@ import posts from '../../json/posts.json';
         return (
           <div
             class:list={[
-              { 'sm:col-span-6': i < 2, 'sm:col-span-4': i >= 2 },
+              { 'sm:col-span-4': i >= 2, 'sm:col-span-6': i < 2 },
               'col-span-12',
             ]}
           >
@@ -44,6 +44,6 @@ import posts from '../../json/posts.json';
     }
   </div>
   <div class='flex justify-end my-4'>
-    <a class='text-gradient font-bold underline'>Read more</a>
+    <a class='text-gradient font-bold underline' href={`/posts`}>Read more</a>
   </div>
 </Container>

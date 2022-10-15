@@ -31,7 +31,16 @@
       // Define the configuration for `.astro` file.
       "files": ["*.astro"],
 
-      "extends": ["plugin:astro/recommended"],
+      "env": {
+        "node": true,
+        "astro/astro": true,
+        "es2020": true
+      },
+
+      "extends": [
+        "plugin:astro/recommended",
+        "plugin:astro/jsx-a11y-recommended"
+      ],
       // Allows Astro components to be parsed.
       "parser": "astro-eslint-parser",
       // Parse the script in `.astro` as TypeScript by adding the following configuration.
@@ -42,7 +51,9 @@
       },
       "rules": {
         // override/add rules settings here, such as:
-        // "astro/no-set-html-directive": "error"
+        // "astro/no-set-html-directive": "error",
+        "astro/no-conflict-set-directives": "error",
+        "astro/no-unused-define-vars-in-style": "error"
       }
     },
     {

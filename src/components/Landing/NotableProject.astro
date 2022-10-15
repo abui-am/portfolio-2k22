@@ -16,6 +16,7 @@ import ProjectCard from '../Card/ProjectCard.astro';
         projects.map((project) => (
           <div class='col-span-2 sm:col-span-1'>
             <ProjectCard
+              id={project.id}
               imageUrl={project.imageUrl}
               description={project.desc}
               title={project.title}

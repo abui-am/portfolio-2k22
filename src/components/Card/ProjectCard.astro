@@ -3,6 +3,7 @@ export type Props = {
   title: string;
   description: string;
   imageUrl: string;
+  id: number;
 };
 const { title, description, imageUrl } = Astro.props;
 ---
@@ -10,6 +11,7 @@ const { title, description, imageUrl } = Astro.props;
 <div class='gradient p-[1px] rounded-lg h-[350px]'>
   <div class='relative overflow-hidden'>
     <img
+      alt={title}
       class='w-full rounded-lg h-[348px] object-cover'
       src={imageUrl}
       loading='lazy'
@@ -19,11 +21,6 @@ const { title, description, imageUrl } = Astro.props;
       <p class='text-gray-800 mb-4'>
         {description}
       </p>
-
-      <div class='flex justify-between'>
-        <a class='text-gradient font-bold underline'>Read more</a>
-        <span class='text-gray-600 font-bold'>3 min read</span>
-      </div>
     </div>
   </div>
 </div>

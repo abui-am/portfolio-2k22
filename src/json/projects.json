@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "title": "Infocimahi",
     "imageUrl": "https://i.imgur.com/UuLZj8A.png",
     "desc": "An Article Web for Infocimahi. I did the UI/UX, Code, and hosted it.",
@@ -9,7 +9,7 @@
     "tags": ["NextJS", "GhostCMS", "Material UI"]
   },
   {
-    "id": "2",
+    "id": 2,
     "title": "Cimahi Baik",
     "imageUrl": "https://i.imgur.com/aXTa3AI.png",
     "desc": "Profile web for cimahi baik, i did the UI/UX, Code, and hosted it.",
