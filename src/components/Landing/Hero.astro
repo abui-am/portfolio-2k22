@@ -1,5 +1,6 @@
 ---
 import Container from '../Container/Container.astro';
+import { Image } from '@astrojs/image/components';
 ---
 
 <Container id='hero'>
@@ -40,13 +41,16 @@ import Container from '../Container/Container.astro';
       </div>
     </div>
     <div class='relative flex justify-center'>
-      <img
+      <Image
+        width={408}
+        height={408}
+        ration
         src='/avatar.webp'
-        class='absolute z-10 top-4 sm:top-[22px] w-72 h-72 sm:w-[364px] sm:h-[364px] rounded-full'
+        class='absolute z-10 top-4 sm:top-[22px] w-64 h-64 sm:w-[364px] sm:h-[364px] rounded-full'
         alt='avatar'
         loading='eager'
       />
-      <div class='ava-bg w-80 h-80 sm:w-[408px] sm:h-[408px] rounded-full'>
+      <div class='ava-bg w-72 h-72 sm:w-[408px] sm:h-[408px] rounded-full'>
       </div>
     </div>
   </section>

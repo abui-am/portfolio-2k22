@@ -1,4 +1,6 @@
 ---
+import { Image } from '@astrojs/image/components';
+
 export type Props = {
   noImage?: boolean;
   imageUrl: string;
@@ -17,12 +19,11 @@ const { noImage, imageUrl, title, description, minRead, url } = Astro.props;
   <div class='relative overflow-hidden h-full'>
     {
       !noImage && (
-        <img
+        <Image
+          height={348}
+          aspectRatio={16 / 9}
           alt={title}
-          class:list={[
-            'w-full rounded-lg object-cover',
-            { 'h-[348px]': !noImage },
-          ]}
+          class:list={['w-full rounded-lg object-cover']}
           src={imageUrl}
         />
       )
