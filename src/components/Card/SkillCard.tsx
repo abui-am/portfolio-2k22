@@ -4,7 +4,7 @@ import type Skill from '../../json/skills.json';
 import { monthToYearText } from '../../utils/texts';
 
 function SkillCard({
-  id,
+  // id,
   imageUrl,
   level,
   monthOfExperience,
@@ -32,11 +32,11 @@ function SkillCard({
             </span>{' '}
             of professional experiences
           </p>
-          <a href={`/skills/${id}`}>
+          {/* <a href={`/skills/${id}`}>
             <span className='text-gradient underline font-bold'>
               See detail
             </span>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
