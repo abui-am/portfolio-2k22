@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import React from 'react';
 import type Skill from '../../json/skills.json';
 import { monthToYearText } from '../../utils/texts';
 
@@ -8,7 +9,7 @@ function SkillCard({
   level,
   monthOfExperience,
   title,
-}: typeof Skill[0]) {
+}: typeof Skill[0]): JSX.Element {
   return (
     <div className={clsx('gradient p-[1px] rounded-lg')}>
       <div className='relative overflow-hidden flex bg-white p-6 rounded-lg space-x-4'>

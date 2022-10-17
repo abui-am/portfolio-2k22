@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Cimahi Baik",
     "imageUrl": "https://i.imgur.com/aXTa3AI.png",
-    "desc": "Profile web for cimahi baik, i did the UI/UX, Code, and hosted it.",
+    "desc": "Profile web for Cimahi Baik, I did the UI/UX, Code, and hosted it.",
     "url": "https://cimahibaik.infocimahi.co",
     "date": "May 2021",
     "tags": ["NextJS", "Material UI"]
@@ -22,19 +22,82 @@
     "id": 3,
     "title": "Tictactoe",
     "imageUrl": "/portfolio/tic-tac-toe.png",
-    "desc": "Simple Tic Tac toe Game",
+    "desc": "Simple Tic Tac Toe Game using vanilla JS",
     "url": "https://tic-tac-toe-nine-phi.vercel.app/",
     "date": "May 2021",
     "tags": ["Javascript", "HTML", "CSS"]
   },
-
   {
     "id": 4,
     "title": "Movie DB",
     "imageUrl": "/portfolio/search-movie.png",
-    "desc": "Movie Search App",
+    "desc": "Movie Search App with OMDb API",
     "url": "https://moviedb-app.vercel.app/",
     "date": "Dec 2021",
     "tags": ["Javascript", "React", "Jest"]
+  },
+  {
+    "id": 5,
+    "title": "Template Generator Tools",
+    "imageUrl": "/portfolio/template-generator.png",
+    "url": "https://www.instagram.com/infocimahi.co/",
+    "desc": "Template generator tools, I made this to help templating process for my team. Built using Reactjs only",
+    "date": "Dec 2021",
+    "tags": ["Javascript", "React"]
+  },
+  {
+    "id": 6,
+    "title": "Pokemon App",
+    "imageUrl": "/portfolio/pokemon.png",
+    "url": "https://pokemon-dly99iyjh-aadjie-binaracademy.vercel.app/",
+    "desc": "Simple pokemon search app, I make this project in purpose to teach data fetching and jest to my student",
+    "date": "September 2022",
+    "tags": ["Javascript", "React", "Redux", "Jest"]
+  },
+  {
+    "id": 7,
+    "title": "Letter Generator System",
+    "imageUrl": "/portfolio/surat-generator.png",
+    "url": "https://github.com/irhamputra/kjri-fr-generator-letter",
+    "desc": "Mail generator system for handling formal letter generation",
+    "date": "Dec 2021",
+    "tags": ["Typescript", "React", "React Query"]
+  },
+  {
+    "id": 8,
+    "title": "Inventory Management System",
+    "imageUrl": "/portfolio/inventory-management.png",
+    "url": "https://github.com/abui-am/inventory-management-fe",
+    "desc": "Inventory management system + financial report",
+    "date": "October 2022",
+    "tags": ["Typescript", "NextJS", "React Query", "Tailwind CSS"]
+  },
+  {
+    "id": 9,
+    "title": "2021 Personal Website",
+    "imageUrl": "/portfolio/portfolio.png",
+    "url": "https://abui-am-2021.vercel.app/",
+    "desc": "Old Personal portfolio website",
+    "date": "October 2021",
+    "tags": ["Typescript", "NextJS", "Sass"]
+  },
+  {
+    "id": 10,
+    "title": "Tellme, Anonymous message App",
+    "imageUrl": "/portfolio/tellme.png",
+    "url": "https://github.com/abui-am/tellme",
+    "desc": "Anonymous message app, I make this project in purpose to learn Firebase and RTK Query",
+    "date": "October 2021",
+    "tags": ["Typescript", "NextJS", "Firebase", "RTK Query", "OAuth"]
+  },
+
+  {
+    "id": 11,
+    "title": "Bookfinder",
+    "imageUrl": "/portfolio/bookfinder.png",
+    "url": " https://bookfinder-one.vercel.app/",
+    "desc": "Book searching website, I made this to learn Mobile first design and Google Book API",
+    "date": "October 2021",
+    "tags": ["Typescript", "NextJS", "Google Book Api", "Jest"]
   }
 ]
