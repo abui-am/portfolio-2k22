@@ -88,7 +88,7 @@
     "url": "https://github.com/abui-am/tellme",
     "desc": "Anonymous message app, I make this project in purpose to learn Firebase and RTK Query",
     "date": "October 2021",
-    "tags": ["Typescript", "NextJS", "Firebase", "RTK Query", "OAuth"]
+    "tags": ["Typescript", "NextJS", "Firebase", "RTK Query"]
   },
 
   {
