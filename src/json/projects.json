@@ -16,5 +16,25 @@
     "url": "https://cimahibaik.infocimahi.co",
     "date": "May 2021",
     "tags": ["NextJS", "Material UI"]
+  },
+
+  {
+    "id": 3,
+    "title": "Tictactoe",
+    "imageUrl": "/portfolio/tic-tac-toe.png",
+    "desc": "Simple Tic Tac toe Game",
+    "url": "https://tic-tac-toe-nine-phi.vercel.app/",
+    "date": "May 2021",
+    "tags": ["Javascript", "HTML", "CSS"]
+  },
+
+  {
+    "id": 4,
+    "title": "Movie DB",
+    "imageUrl": "/portfolio/search-movie.png",
+    "desc": "Movie Search App",
+    "url": "https://moviedb-app.vercel.app/",
+    "date": "Dec 2021",
+    "tags": ["Javascript", "React", "Jest"]
   }
 ]
