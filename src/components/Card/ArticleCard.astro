@@ -33,7 +33,7 @@ const { noImage, imageUrl, title, description, minRead, url } = Astro.props;
       class:list={[
         { 'bottom-0 left-0 right-0 absolute': !noImage },
         { 'rounded-t-lg h-full': noImage },
-        'bg-white rounded-b-lg p-6',
+        'bg-white rounded-b-lg p-6 flex flex-col',
       ]}
     >
       <a href={url} target='_blank' rel='noopener noreferrer'>
@@ -43,7 +43,7 @@ const { noImage, imageUrl, title, description, minRead, url } = Astro.props;
           {title}
         </h2>
       </a>
-      <p class='text-gray-800 mb-4'>
+      <p class='text-gray-800 mb-4 flex-1'>
         {description}
       </p>
 

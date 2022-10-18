@@ -1,0 +1,76 @@
+{
+  "title": "Passionate Developer, Who love to learn",
+  "body": [
+    {
+      "title": "Hi!",
+      "icon": "👋",
+      "id": "intro",
+      "description": [
+        {
+          "id": "1",
+          "text": "I’m a passionate Mainly focusing on building good looking, best performance Front-End. "
+        }
+      ]
+    },
+    {
+      "title": "My 'Approach' into programming",
+      "id": "approach",
+      "description": [
+        {
+          "id": "1",
+          "text": "Programming is, hard. Indeed. No one say programming is easy unless you are those early stage developer who still under this Dunning-Kruger effect. Building a “good” product is easy. But, building the “best” one is very hard.  "
+        },
+        {
+          "id": "2",
+          "text": "So yeah, i prefer to learn the best way to program something.  Not just its speed that matters but also its DX. If I have a way to make something 0.2s faster but with the trade of its DX. then I 80% won't do that (except when the speed is the most important aspect)."
+        }
+      ]
+    },
+    {
+      "title": "Strict Development.",
+      "id": "strict",
+      "description": [
+        {
+          "id": "1",
+          "text": "Everyone likes to do programming in their way, and I too. I have some preference for doing my stuff. Don’t get me wrong, I will follow any rules that my team would like to use. "
+        },
+        {
+          "id": "2",
+          "text": "But I personally like an environment with a really high standard about what code we push, for example, imagine a Typescript project with a highly strict eslint configuration, all things placed nicely and of course we forbid the use of “any” types, that will be beautiful. "
+        },
+        {
+          "id": "3",
+          "text": "I don't see strict rules in a project as something to hinder my progress but as tools to standardize a thing and reduce its inconsistency, which will be great in the long run."
+        }
+      ]
+    },
+    {
+      "title": "'Are you against a hack and stuff?'",
+      "id": "qnahack",
+      "description": [
+        {
+          "id": "1",
+          "text": "I don’t say I don’t like hacks. But i think you should know the tradeoff for doing the hacks. And you have to clarify why you are doing the hack. "
+        },
+        {
+          "id": "2",
+          "text": "I think Dev must have the urge to solve any challenge in from of him for the sake of their product users."
+        },
+        {
+          "id": "3",
+          "text": "I think you fail as a dev if you fail to solve your user's problem, no matter how challenging it is you must find the answer or atleast some workaround. For this scenario, hack is the way to go."
+        }
+      ]
+    },
+    {
+      "title": "Development as an art.",
+      "id": "dev-as-an-art",
+      "description": [
+        {
+          "id": "1",
+          "text": "I also see development as an art. The beauty of the programming is not reaching the end of the goal. But to adore every single change you make. That’s way for a quest to always keeping myself updated, I read books and attend conferences & meetups."
+        }
+      ]
+    }
+  ]
+}
