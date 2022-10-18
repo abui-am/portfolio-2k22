@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import React, { PropsWithChildren } from 'react';
-import { useWindowScroll } from 'react-use';
+import useWindowScroll from '../../hooks/useWindowScroll';
 
 function StickyView({ children }: PropsWithChildren) {
   const { y = 0 } = useWindowScroll();
@@ -8,7 +8,7 @@ function StickyView({ children }: PropsWithChildren) {
     () => (
       <header
         className={clsx(
-          'fixed w-full top-0 z-20 transition-colors',
+          'fixed w-fu top-0 z-20 transition-colors',
           y > 0 ? 'gradient-white' : 'bg-light-gray'
         )}
       >
