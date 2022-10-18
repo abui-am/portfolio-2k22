@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer/Footer.astro';
 import Header from '../components/Header/Header.astro';
 import About from '../components/Landing/About.astro';
+import StickyView from "../components/Header/StickyView"
 import Hero from '../components/Landing/Hero.astro';
 import NotableProject from '../components/Landing/NotableProject.astro';
 import RecentPosts from '../components/Landing/RecentPosts.astro';
@@ -17,8 +18,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
   </head>
   <body>
     <main>
-      <div class='bg-light-gray'>
+      <StickyView client:only="react">
         <Header />
+      </StickyView>
+      <div class='bg-light-gray'>
         <Hero />
       </div>
       <RecentPosts />

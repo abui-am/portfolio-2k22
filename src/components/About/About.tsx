@@ -50,7 +50,7 @@ function TableOfContent() {
   return (
     <section
       id='toc'
-      className='block gradient p-[1px] rounded-lg sm:max-w-sm sm:sticky sm:top-12'
+      className='block gradient p-[1px] rounded-lg sm:max-w-sm sm:sticky sm:top-28'
     >
       <div className='bg-white rounded-lg p-4'>
         <div className='mb-4 font-bold'>

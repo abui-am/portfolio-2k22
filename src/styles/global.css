@@ -53,6 +53,14 @@
   .gradient {
     background: linear-gradient(255.54deg, #4537eb 16.47%, #c43bda 76.71%);
   }
+  .gradient-white {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.96) 90%,
+      rgba(255, 255, 255, 0.9) 100%
+    );
+  }
 
   .spin-gradient {
     position: relative;
