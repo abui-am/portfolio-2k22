@@ -2,14 +2,21 @@
 import Container from '../Container/Container.astro';
 ---
 
-<Container id='header' additionalClass='bg-blue'>
+<Container id='header'>
   <header>
     <div class='flex justify-between'>
-      <h2 class='font-bold text-xl'>Abuidillah Adjie Muliadi</h2>
+      <a href='/'>
+        <h2 class='font-bold text-xl hover:text-gradient'>
+          Abuidillah Adjie Muliadi
+        </h2>
+      </a>
       <div class='space-x-4 hidden sm:block'>
-        <a class='font-bold' href='#posts'>Posts</a>
-        <a class='font-bold' href='#skills'>Skills and Stack</a>
-        <a class='font-bold' href='#projects'>Projects</a>
+        <a class='font-bold hover:text-gradient' href='/#posts'>Posts</a>
+        <a class='font-bold hover:text-gradient' href='/#about'>About</a>
+        <a class='font-bold hover:text-gradient' href='/#skills'
+          >Skills and Stack</a
+        >
+        <a class='font-bold hover:text-gradient' href='/#projects'>Projects</a>
       </div>
     </div>
   </header>
