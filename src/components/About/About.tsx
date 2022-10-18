@@ -37,7 +37,7 @@ function About() {
           ))}
         </div>
         <div className='flex justify-end -order-1 sm:order-1'>
-          <div className='w-full sm:w-auto hidden sm:visible'>
+          <div className='w-full sm:w-auto hidden sm:block'>
             <TableOfContent />
           </div>
         </div>
