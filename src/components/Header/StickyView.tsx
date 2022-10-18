@@ -8,7 +8,7 @@ function StickyView({ children }: PropsWithChildren) {
     () => (
       <header
         className={clsx(
-          'sticky top-0 z-20 transition-colors',
+          'fixed w-full top-0 z-20 transition-colors',
           y > 0 ? 'gradient-white' : 'bg-light-gray'
         )}
       >

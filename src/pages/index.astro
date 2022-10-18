@@ -18,10 +18,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
   </head>
   <body>
     <main>
-      <StickyView client:only="react">
+      <StickyView client:load>
         <Header />
       </StickyView>
-      <div class='bg-light-gray'>
+      <div class='bg-light-gray pt-[76px]'>
         <Hero />
       </div>
       <RecentPosts />
