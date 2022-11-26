@@ -30,6 +30,8 @@
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
+    "@astrojs/partytown": "^1.0.2",
+    "@types/gtag.js": "^0.0.12",
     "@types/react": "^18.0.21",
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "astro-robots-txt": "^0.3.10",

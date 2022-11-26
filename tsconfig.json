@@ -2,6 +2,6 @@
   "extends": "astro/tsconfigs/strictest",
   "compilerOptions": {
     "skipLibCheck": true,
-    "types": ["@astrojs/image/client"]
+    "types": ["@astrojs/image/client", "@types/gtag.js"]
   }
 }
