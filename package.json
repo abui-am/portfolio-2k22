@@ -30,6 +30,7 @@
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
+    "@playwright/test": "^1.30.0",
     "@types/react": "^18.0.21",
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "astro-robots-txt": "^0.3.10",
