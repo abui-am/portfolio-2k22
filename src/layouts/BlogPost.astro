@@ -24,7 +24,11 @@ const {
 
 <html lang='en'>
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead
+      title={title}
+      image={heroImage?.src ?? ''}
+      description={description}
+    />
     <style>
       .title {
         font-size: 2em;

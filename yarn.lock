@@ -123,6 +123,14 @@
     uvu "^0.5.0"
     vfile-message "^3.0.0"
 
+"@astrojs/partytown@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/partytown/-/partytown-1.0.2.tgz#e31f44e366b070815c68c7ede9fe567b8c75316c"
+  integrity sha512-+pUjLxdp0SYqUO+X+FjFN95KxK7w4Rs5gIMQ7scKUWd2073D3/5hTlij9qNmX5Bk/tFHUfTivKIZ5p233Lpa9Q==
+  dependencies:
+    "@builder.io/partytown" "^0.7.1"
+    mrmime "^1.0.0"
+
 "@astrojs/prism@^1.0.0", "@astrojs/prism@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@astrojs/prism/-/prism-1.0.1.tgz"
@@ -414,6 +422,11 @@
     "@babel/helper-string-parser" "^7.18.10"
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
+
+"@builder.io/partytown@^0.7.1":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@builder.io/partytown/-/partytown-0.7.2.tgz#012d0dc5458af07079849f09567fcbf058a72d46"
+  integrity sha512-TmRHuN4gdsOJxBGsPPirJAMuXDm0o9cx9t5ltSson+F+K5ES3eNiBCxBGvSSkoEARvZ+kl1n7WVi+8qNyJdeAQ==
 
 "@emmetio/abbreviation@^2.2.3":
   version "2.2.3"
@@ -725,6 +738,11 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.0.tgz"
   integrity sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==
+
+"@types/gtag.js@^0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.12.tgz#095122edca896689bdfcdd73b057e23064d23572"
+  integrity sha512-YQV9bUsemkzG81Ea295/nF/5GijnD2Af7QhEofh7xu+kvCN6RdodgNwwGWXB5GMI3NoyvQo0odNctoH/qLMIpg==
 
 "@types/hast@^2.0.0":
   version "2.3.4"

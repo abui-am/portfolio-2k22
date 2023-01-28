@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
 import robotsTxt from 'astro-robots-txt';
 import image from '@astrojs/image';
+import partytown from '@astrojs/partytown';
 
 import tailwind from '@astrojs/tailwind';
 
@@ -19,6 +20,12 @@ export default defineConfig({
     image({
       serviceEntryPoint: '@astrojs/image/sharp',
     }),
+    partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ['dataLayer.push'],
+      },
+    }),
   ],
-  site: 'https://portfolio-2k22.vercel.app/',
+  site: 'https://abui.tech',
 });
