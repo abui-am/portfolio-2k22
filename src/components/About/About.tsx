@@ -59,7 +59,11 @@ function TableOfContent() {
         <ol>
           {about.body.map((paragraph, index) => (
             <li key={paragraph.id} className='mb-2'>
-              <a href={`#${paragraph.id}`} className='underline'>
+              <a
+                // TODO: make this js
+                href={`#${paragraph.id}`}
+                className='underline'
+              >
                 {index + 1}. {paragraph.title}
               </a>
             </li>
