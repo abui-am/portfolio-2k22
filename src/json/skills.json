@@ -6,7 +6,7 @@
     "level": "Proficient",
     "category": ["tools"],
     "specialization": ["fe"],
-    "monthOfExperience": 36
+    "monthOfExperience": 48
   },
   {
     "id": "002",
@@ -15,7 +15,7 @@
     "level": "Proficient",
     "category": ["language"],
     "specialization": ["fe", "be"],
-    "monthOfExperience": 36
+    "monthOfExperience": 48
   },
   {
     "id": "003",
@@ -24,7 +24,7 @@
     "level": "Proficient",
     "category": ["language"],
     "specialization": ["fe", "be"],
-    "monthOfExperience": 24
+    "monthOfExperience": 36
   },
   {
     "id": "004",
@@ -33,7 +33,7 @@
     "level": "Proficient",
     "category": ["language"],
     "specialization": ["fe"],
-    "monthOfExperience": 36
+    "monthOfExperience": 48
   },
   {
     "id": "005",
@@ -42,7 +42,7 @@
     "level": "Proficient",
     "category": ["language"],
     "specialization": ["fe"],
-    "monthOfExperience": 36
+    "monthOfExperience": 48
   },
   {
     "id": "006",
@@ -51,7 +51,7 @@
     "level": "Basic",
     "category": ["tools"],
     "specialization": ["be"],
-    "monthOfExperience": 3
+    "monthOfExperience": 6
   },
   {
     "id": "007",
